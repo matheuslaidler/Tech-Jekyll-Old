@@ -1,0 +1,17 @@
+title: Acervo de TI
+favicon: favicon.ico
+theme: jekyll-theme-leaf
+
+# for a clean URL
+permalink: :slug
+
+social:
+  instagram: matheuslaidler
+  github: matheuslaidler
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+### analytics
+google_analytics: UA-NNNNNNNN-N
