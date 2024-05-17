@@ -1,4 +1,4 @@
-title: Acervo pessoal - Matheus Laidler
+title: Cyber Book 
 favicon: favicon.ico
 theme: jekyll-theme-leaf
 
@@ -6,12 +6,12 @@ theme: jekyll-theme-leaf
 permalink: :slug
 
 social:
-  instagram: matheuslaidler
-  github: matheuslaidler
+  #instagram: matheuslaidler
+  github: hithmast
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
 ### analytics
-google_analytics: UA-NNNNNNNN-N
+google_analytics: G-KHGHKT689X
