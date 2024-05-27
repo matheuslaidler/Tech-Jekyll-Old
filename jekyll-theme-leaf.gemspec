@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-leaf"
-  spec.version       = "0.1.0"
+  spec.version       = "0.4.0"
   spec.authors       = ["Supun Kavinda"]
   spec.email         = ["supunkavinda1125@gmail.com"]
 
@@ -16,6 +16,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "bundler", "~> 2.3.26"
   spec.add_development_dependency "rake", "~> 12.0"
 end
