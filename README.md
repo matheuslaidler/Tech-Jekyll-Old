@@ -1,5 +1,5 @@
 # Tech Page Theme
-### Modified -> Leaf theme is vulnerable and OLD
+### Modified -> Leaf theme is vulnerable and OLD, so here is a modified version of the theme.
 
 This was my original theme to matheuslaidler.github.io
 Esse ja foi meu principal tema para matheuslaidler.github.io
