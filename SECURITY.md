@@ -1,21 +1,20 @@
-# Security Policy
+# Security
 
-## Supported Versions
+## Vulnerability
+Update bundler to a version higher, at least 2.2.33 :-: [vulnerability: CVE-2020-36327]
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+ - **Vuln Info [ENG]**
+   
+   - CVE: CVE-2020-36327
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+   - Package: bundler (RubyGems)
+
+   - Affected versions: >= 1.16.0, < 2.2.10
+
+   - Patched version: 2.2.10
+
+   - Description: Bundler 1.16.0 through 2.2.9 and 2.2.11 through 2.2.17 sometimes chooses a dependency source based on the highest gem version number, which means that a rogue gem found at a public source may be chosen, even if the intended choice was a private gem that is a dependency of another private gem that is explicitly depended on by the application.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Report vulnerabilities using the tab "issues".
